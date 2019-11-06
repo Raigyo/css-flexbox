@@ -1,0 +1,103 @@
+.page{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header{
+  width: 100%;
+  height: 60px;
+  background-color: #EEE;
+  display: flex;
+  align-items: center; /* vert align */
+  align-content: center; /* vert align for elements if several rows */
+  justify-content: space-around; /* space between elements */
+  flex-wrap: wrap; /* wrap when elements are outside space */
+}
+
+.header a{
+  text-decoration: none;
+}
+
+.header a:hover{
+  text-decoration: underline;
+}
+
+.footer{
+  order: 4;
+  width: 100%;
+  height: 60px;
+  background-color: #EEE;
+  display: flex;
+  justify-content: center; /* space between elements */
+}
+
+.sidebar{
+  flex: 1 0px;  /*flex-grow | flex-basis*/
+  /*can ne used to center any element */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* --- */
+  order: 1;
+  width: 20%;
+  background-color: #bdc5ff;
+}
+
+.sidebar-secondary{
+  order: 3;
+}
+
+.body{
+  flex: 2 0px;
+  order: 2;
+  width: 60%;
+  background-color: #ffcabc;
+
+}
+
+.mosaic {
+  order: 2;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  /*justify-content: space-between;*/
+}
+
+.mosaic a {
+  flex-grow: 1;
+  flex-basis: 150px;
+  max-width: 150px;
+  margin: 5px;
+}
+
+.mosaic img{
+  height: 100%;
+  width: 100%;
+}
+
+/* media query responsive column when < 500px */
+@media (max-width: 700px) {
+  .header{
+    flex-direction: column;
+    height: auto;
+  }
+  .body{
+    flex-basis: 100%;
+  }
+  .sidebar{
+    order: 3;
+    width: 50%;
+  }
+  .sidebar-secondary{
+    order: 4;
+    width: 50%;
+  }
+  .mosaic{
+    flex-direction: column;
+    align-items: center; /* vert align */
+    align-content: center; /* vert align for elements if several rows */
+    height: auto;
+  }
+}
