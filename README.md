@@ -3,11 +3,11 @@ Grafikart.fr -Tutoriel CSS : Flexbox
 
 *November 2019*
 
-> 🔨 Tutoriel CSS : Flexbox from [Grafikart.fr.](https://www.youtube.com/watch?v=LNqBKTeeiWo)
+> 🔨 CSS Tutorial : Flexbox from [Grafikart.fr.](https://www.youtube.com/watch?v=LNqBKTeeiWo)
 
 [Githubpage](https://raigyo.github.io/css-flexbox/)
 
 
 * * *
 
-Basic responsive layout (header, footer, content and aside) using Flexbox.
+Basic responsive layout with an image gallery using Flexbox for the layout.
