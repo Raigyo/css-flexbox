@@ -5,7 +5,7 @@ Grafikart.fr -Tutoriel CSS : Flexbox
 
 > 🔨 CSS Tutorial : Flexbox from [Grafikart.fr.](https://www.youtube.com/watch?v=LNqBKTeeiWo)
 
-[Githubpage](https://raigyo.github.io/css-flexbox/)
+[Github page](https://raigyo.github.io/css-flexbox/)
 
 
 * * *
